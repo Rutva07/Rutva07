@@ -34,27 +34,38 @@
 --	Applied advanced signal processing techniques (bandpass & notch filtering, Fourier and Wavelet transforms) to clean raw EEG data and extract time- and frequency-domain features.  
 --	Trained and evaluated models (Neural Networks, Random Forests, Logistic Regression) achieving up to 96% average accuracy and 92% precision on prefiltered data, and robust performance (~88% accuracy) on raw EEG after preprocessing.  
 --	Visualized feature importance and performance metrics (accuracy, F1-score, confusion matrices), identifying Fourier-based features as most effective for seizure detection.
-  
 
 - **SmartExpense – Expense Management Platform (Java, Spring Boot, React, Docker)**  
-  Production-ready system with **99.9% reproducible builds**, Redis caching for <100ms response times, and JWT authentication:contentReference[oaicite:7]{index=7}.  
+--	Engineered a production-ready platform for secure expense tracking and management, fully containerized and orchestrated with Docker Compose to achieve ~99.9% reproducible builds and deployment times reduced by 40%.  
+--	Implemented enterprise-grade JWT authentication with password hashing and role-based access control, eliminating unauthorized access attempts during testing and significantly strengthening system security.  
+--	Designed and optimized RESTful APIs with transactional consistency and Redis-backed caching, enabling real-time expense tracking with <100ms response latency and seamless scalability to 1,000+ concurrent requests.  
 
 - **RAG-Powered Market Insight Assistant (Python, Streamlit, FAISS, OpenAI API)**  
-  Combined stock data and real-time article summarization via embeddings and retrieval-augmented generation:contentReference[oaicite:8]{index=8}.  
+--  Fetches up to 15 articles per query, cleans and chunks text (~500 chars), generates summaries via local BART or GPT-4o-mini.  
+--	Embeds documents in 384-dim vectors with SentenceTransformers and FAISS, retrieving top K (3–10) snippets in milliseconds.  
+--	Provides historical stock data and summaries (5d–1y) via yfinance, with interactive charts.  
+--	Streamlit sidebar configuration, API key management, and offline mode enable real-time interactivity without paid APIs.  
+
 
 - **Robust Chest X-Ray Disease Classification (Python, TensorFlow)**  
-  CNN for multi-label disease detection; tested with FGSM/PGD adversarial attacks; **AUC: 76% (clean), 70% (FGSM), 63% (PGD)**:contentReference[oaicite:9]{index=9}.  
+--	Developed a CNN for multi-label chest X-ray classification (14 thoracic diseases) using ChestMNIST.  
+--	Implemented adversarial attacks (FGSM & PGD) to test robustness and improved resilience with adversarial training.  
+--	Achieved AUC: 76% on clean data, 70% under FGSM, 63% under PGD, demonstrating model reliability and vulnerability analysis.  
+--	Visualized adversarial examples to interpret model behavior and enhance explainability.
 
 - **Mini OS Scheduler Simulator (C++, Python)**  
-  User-space threading library with **Round Robin, Priority, and MLFQ** schedulers plus Gantt-chart visualization:contentReference[oaicite:10]{index=10}.  
+--	Designed and implemented a user-space threading library with custom schedulers (Round Robin, Priority, MLFQ) to simulate core OS scheduling concepts.  
+--	Built a high-precision logging system and Python visualization tool to generate Gantt-chart timelines of thread execution and context switches.  
+--	Demonstrated advanced systems concepts including cooperative context switching, blocking, preemption, and scheduler policy analysis across multiple test scenarios.  
 
-- **Other Projects:** Flood Relief Fund (Flask, SQLite) | Road Sign Classifier (CNN, 97% accuracy) | Cache Simulator (C) | GateForge Logic Evaluator (C) | Hunger Games Simulation (BST):contentReference[oaicite:11]{index=11}.  
+
+- **Other Projects:** Flood Relief Fund (Flask, SQLite) | Road Sign Classifier (CNN, 97% accuracy) | Cache Simulator (C) | GateForge Logic Evaluator (C) | Hunger Games Simulation (BST)
 
 ---
 
 ## 🛠️ Skills
 - **Languages:** Java, C, C++, Python, C#, SQLite, JavaScript, HTML/CSS, MATLAB, R, Assembly, Rust, Ruby
-- **Frameworks/Tools:** LLVM, Spring Boot, Flask, Django, TensorFlow, PyTorch, scikit-learn, React, Docker, PostgreSQL, Pandas, OpenCV, OpenAI API
+- **Frameworks/Tools:** LLVM, Bootstrap, Flask, Django, Spring Boot, TensorFlow, NumPy, Asyncio, React, Scikit-learn, NumPy, Pytorch, MatplotLib, pymavlink, Pandas, MAVProxy, Transformer, OpenCV, Git/GitHub, OpenAI API, Rest API, Docker, PostgreSQL
 
 ---
 
@@ -68,5 +79,5 @@
 📫 **Connect with me:**  
 - [LinkedIn](https://www.linkedin.com/in/rutva-patel-b09259299)  
 - [GitHub](https://github.com/Rutva07)  
-- [Portfolio](https://rutva-patel-portfolio.vercel.app):contentReference[oaicite:14]{index=14}  
+- [Portfolio](https://rutva-patel-portfolio.vercel.app)
 

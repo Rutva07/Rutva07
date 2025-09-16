@@ -28,7 +28,7 @@
 
 ---
 
-## 💻 Selected Projects
+## 💻 Projects
 - **Seizure Detection (Python, ML, Signal Processing)**  
 --	Built a machine learning pipeline to detect epileptic seizures using EEG datasets (Bonn, CHB-MIT, Zenodo), integrating signal preprocessing, feature engineering, and classification models.  
 --	Applied advanced signal processing techniques (bandpass & notch filtering, Fourier and Wavelet transforms) to clean raw EEG data and extract time- and frequency-domain features.  

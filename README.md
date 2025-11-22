@@ -10,10 +10,8 @@
 ## 🔬 Research & Experience
 - **Research Assistant – ETF Sanitizer (LLVM, C++)**  
   Supervised by Dr. Santosh Nagarakatte  
-•	Design and implement an EFT sanitizer in C++ leveraging LLVM infrastructure, ensuring memory safety, control-flow correctness, and compliance with kernel execution constraints for user-submitted programs.  
-•	Develop LLVM passes to analyze instruction sequences, enforce safety policies, and detect unsafe operations, focusing on reducing floating-point rounding errors by ~52% and improving numerical precision, while enhancing execution speed by ~20%.  
-•	Simulate execution paths and enforce safety guarantees before kernel integration, improving program reliability and robustness while providing insights for extending sanitizer capabilities to advanced EFT features.
-
+•	Building a vanilla C prototype inspired by Ozaki’s method implementing error-free transformations (EFT) for matrix mulitplication, validating exact error terms and cross-platform reproducibility.  
+•	Researched and reproduced prior EFT techniques (e.g., Dekker, Veltkamp split, Ozaki) and experimented with alternative formulations to compare accuracy–throughput trade-offs under varying condition numbers.
 
 - **Data Analyst Intern – NJ Dept. of Labor (SQL, Data Pipelines)**  
 •	Wrote, optimized, and executed complex Oracle SQL scripts across ~200 large-scale public datasets, some even including millions of records, to support Employer Accounts Modernization and Workforce Modernization initiatives.  
